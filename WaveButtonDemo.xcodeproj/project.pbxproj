@@ -1,0 +1,348 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D4600DF19FFAF4100E03921 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D4600DE19FFAF4100E03921 /* main.m */; };
+		3D4600E219FFAF4100E03921 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D4600E119FFAF4100E03921 /* AppDelegate.m */; };
+		3D4600E519FFAF4100E03921 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D4600E419FFAF4100E03921 /* ViewController.m */; };
+		3D4600E819FFAF4100E03921 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D4600E619FFAF4100E03921 /* Main.storyboard */; };
+		3D4600EA19FFAF4100E03921 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D4600E919FFAF4100E03921 /* Images.xcassets */; };
+		3D4600ED19FFAF4100E03921 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D4600EB19FFAF4100E03921 /* LaunchScreen.xib */; };
+		3D46010719FFB08600E03921 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D46010619FFB08600E03921 /* QuartzCore.framework */; };
+		3D46011119FFB1B800E03921 /* btRippleButtton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D46010D19FFB1B800E03921 /* btRippleButtton.m */; };
+		3D46011919FFBF9900E03921 /* author.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D46011419FFBF9900E03921 /* author.png */; };
+		3D46011A19FFBF9A00E03921 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3D46011519FFBF9900E03921 /* background.jpg */; };
+		3D46011B19FFBF9A00E03921 /* google.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D46011619FFBF9900E03921 /* google.png */; };
+		3D46011C19FFBF9A00E03921 /* green.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D46011719FFBF9900E03921 /* green.png */; };
+		3D46011D19FFBF9A00E03921 /* pin.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D46011819FFBF9900E03921 /* pin.png */; };
+		3D46011F19FFE22F00E03921 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3D46011E19FFE22F00E03921 /* Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3D4600D919FFAF4100E03921 /* WaveButtonDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaveButtonDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D4600DE19FFAF4100E03921 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3D4600E019FFAF4100E03921 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3D4600E119FFAF4100E03921 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3D4600E319FFAF4100E03921 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3D4600E419FFAF4100E03921 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3D4600E719FFAF4100E03921 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3D4600E919FFAF4100E03921 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3D4600EC19FFAF4100E03921 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3D46010619FFB08600E03921 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		3D46010C19FFB1B800E03921 /* btRippleButtton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = btRippleButtton.h; sourceTree = "<group>"; };
+		3D46010D19FFB1B800E03921 /* btRippleButtton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = btRippleButtton.m; sourceTree = "<group>"; };
+		3D46011419FFBF9900E03921 /* author.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = author.png; sourceTree = "<group>"; };
+		3D46011519FFBF9900E03921 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
+		3D46011619FFBF9900E03921 /* google.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = google.png; sourceTree = "<group>"; };
+		3D46011719FFBF9900E03921 /* green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = green.png; sourceTree = "<group>"; };
+		3D46011819FFBF9900E03921 /* pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pin.png; sourceTree = "<group>"; };
+		3D46011E19FFE22F00E03921 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D4600D619FFAF4100E03921 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D46010719FFB08600E03921 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D4600D019FFAF4100E03921 = {
+			isa = PBXGroup;
+			children = (
+				3D46010619FFB08600E03921 /* QuartzCore.framework */,
+				3D4600DB19FFAF4100E03921 /* WaveButtonDemo */,
+				3D4600DA19FFAF4100E03921 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3D4600DA19FFAF4100E03921 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D4600D919FFAF4100E03921 /* WaveButtonDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D4600DB19FFAF4100E03921 /* WaveButtonDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3D46011319FFBF9900E03921 /* Images */,
+				3D46010B19FFB1B800E03921 /* btRippleButton */,
+				3D4600E019FFAF4100E03921 /* AppDelegate.h */,
+				3D4600E119FFAF4100E03921 /* AppDelegate.m */,
+				3D4600E319FFAF4100E03921 /* ViewController.h */,
+				3D4600E419FFAF4100E03921 /* ViewController.m */,
+				3D4600E619FFAF4100E03921 /* Main.storyboard */,
+				3D4600E919FFAF4100E03921 /* Images.xcassets */,
+				3D4600EB19FFAF4100E03921 /* LaunchScreen.xib */,
+				3D4600DC19FFAF4100E03921 /* Supporting Files */,
+			);
+			path = WaveButtonDemo;
+			sourceTree = "<group>";
+		};
+		3D4600DC19FFAF4100E03921 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D46011E19FFE22F00E03921 /* Info.plist */,
+				3D4600DE19FFAF4100E03921 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3D46010B19FFB1B800E03921 /* btRippleButton */ = {
+			isa = PBXGroup;
+			children = (
+				3D46010C19FFB1B800E03921 /* btRippleButtton.h */,
+				3D46010D19FFB1B800E03921 /* btRippleButtton.m */,
+			);
+			path = btRippleButton;
+			sourceTree = "<group>";
+		};
+		3D46011319FFBF9900E03921 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				3D46011419FFBF9900E03921 /* author.png */,
+				3D46011519FFBF9900E03921 /* background.jpg */,
+				3D46011619FFBF9900E03921 /* google.png */,
+				3D46011719FFBF9900E03921 /* green.png */,
+				3D46011819FFBF9900E03921 /* pin.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D4600D819FFAF4100E03921 /* WaveButtonDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D4600FC19FFAF4200E03921 /* Build configuration list for PBXNativeTarget "WaveButtonDemo" */;
+			buildPhases = (
+				3D4600D519FFAF4100E03921 /* Sources */,
+				3D4600D619FFAF4100E03921 /* Frameworks */,
+				3D4600D719FFAF4100E03921 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WaveButtonDemo;
+			productName = WaveButtonDemo;
+			productReference = 3D4600D919FFAF4100E03921 /* WaveButtonDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D4600D119FFAF4100E03921 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = AhmedHamdy;
+				TargetAttributes = {
+					3D4600D819FFAF4100E03921 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+				};
+			};
+			buildConfigurationList = 3D4600D419FFAF4100E03921 /* Build configuration list for PBXProject "WaveButtonDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D4600D019FFAF4100E03921;
+			productRefGroup = 3D4600DA19FFAF4100E03921 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D4600D819FFAF4100E03921 /* WaveButtonDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D4600D719FFAF4100E03921 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D46011C19FFBF9A00E03921 /* green.png in Resources */,
+				3D46011D19FFBF9A00E03921 /* pin.png in Resources */,
+				3D46011F19FFE22F00E03921 /* Info.plist in Resources */,
+				3D46011919FFBF9900E03921 /* author.png in Resources */,
+				3D46011A19FFBF9A00E03921 /* background.jpg in Resources */,
+				3D4600E819FFAF4100E03921 /* Main.storyboard in Resources */,
+				3D4600ED19FFAF4100E03921 /* LaunchScreen.xib in Resources */,
+				3D46011B19FFBF9A00E03921 /* google.png in Resources */,
+				3D4600EA19FFAF4100E03921 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D4600D519FFAF4100E03921 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D4600E519FFAF4100E03921 /* ViewController.m in Sources */,
+				3D4600E219FFAF4100E03921 /* AppDelegate.m in Sources */,
+				3D46011119FFB1B800E03921 /* btRippleButtton.m in Sources */,
+				3D4600DF19FFAF4100E03921 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3D4600E619FFAF4100E03921 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D4600E719FFAF4100E03921 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3D4600EB19FFAF4100E03921 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D4600EC19FFAF4100E03921 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D4600FA19FFAF4200E03921 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3D4600FB19FFAF4200E03921 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D4600FD19FFAF4200E03921 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WaveButtonDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3D4600FE19FFAF4200E03921 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WaveButtonDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D4600D419FFAF4100E03921 /* Build configuration list for PBXProject "WaveButtonDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D4600FA19FFAF4200E03921 /* Debug */,
+				3D4600FB19FFAF4200E03921 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D4600FC19FFAF4200E03921 /* Build configuration list for PBXNativeTarget "WaveButtonDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D4600FD19FFAF4200E03921 /* Debug */,
+				3D4600FE19FFAF4200E03921 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D4600D119FFAF4100E03921 /* Project object */;
+}
